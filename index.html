@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Latihan Oauth</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="mx-auto container center white" id="login" style="width: 300px;">
+        <h1 class="text-login">Log-in</h1>
+        <div class="btn-group btn-group-lg" style="width: 300px;" role="group">
+            <button id="facebook-login" type="button" class="btn btn-outline-primary"><i class="fab fa-facebook"></i></button>
+            <button id="linkedin-login" type="button" class="btn btn-outline-info"><i class="fab fa-linkedin-in"></i></button>
+            <button id="github-login" type="button" class="btn btn-outline-secondary"><i class="fab fa-github"></i></button>
+        </div>
+    </div>
+
+    
+    <div class="content white">
+        <div class="mx-auto container center invisible" id="user">
+            <h1 class="display-4 text-login" id="name"></h1>
+            <h5 class="text-login" id="type">Kamu login menggunakan github</h5>
+            <a class="btn btn-outline-secondary btn-lg btn-logout" href="#" role="button">log-out</a>
+        </div>
+    </div>
+
+    <script src="all.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
+    <script src="oauth.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

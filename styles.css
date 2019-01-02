@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    height: 14rem;
+}
+  
+.center {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.text-login{
+    text-align: center;
+}
+
+.content{
+    background-image: url(26.jpg);
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 32px;
+    border-radius: 0;
+}
+
+.btn-logout{
+    width: 100%;
+}
+.white{
+    color: white;
+}
